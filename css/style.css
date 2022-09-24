@@ -1,15 +1,48 @@
 body {
+  background-color: rgb(33, 33, 33);
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
 }
-
 #board {
   width: 600px;
   height: 600px;
-  margin: 60px auto;
+  margin: 30px auto;
 }
 
 .box {
   width: 33%;
   float: left;
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:hover {
+  cursor: pointer;
+}
+
+h2 {
+  color: rgb(137, 137, 137);
+}
+span {
+  font-size: 40px;
+  color: white;
+}
+
+.reset {
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+}
+.reset:hover {
+  background-color: rgb(225, 225, 225);
+  cursor: pointer;
+}
+.reset:active {
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
