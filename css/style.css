@@ -1,0 +1,15 @@
+body {
+}
+
+#board {
+  width: 600px;
+  height: 600px;
+  margin: 60px auto;
+}
+
+.box {
+  width: 33%;
+  float: left;
+  border: 1px solid black;
+  height: 200px;
+}
